@@ -95,14 +95,51 @@ input[type="button"]:hover {
 .songs-list-section {
   border-radius: 6px;
   border: 1px solid black;
-  background-color: antiquewhite;
   margin-bottom: 25px;
   padding-left: 10px;
   padding-right: 10px;
+
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+  padding-inline: 8px;
+  background-color: #fbf7f5;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 20px 5px 20px;
 }
 
 .songs-list-section h3 {
   color: gray;
+}
+
+.song-title-section {
+  width: 50%;
+}
+
+.song-like-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.btn-remove {
+  border-radius: 6px;
+  background-color: #b30000;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+
+.btn-like {
+  border-radius: 6px;
+  background-color: #0f1ff9;
+  color: white;
+  width: 120px;
+  height: 30px;
 }
 
 @keyframes shake {
